@@ -43,7 +43,6 @@ def generate_pdf(profile):
     return filename
 
 # Sidebar Navigation
-st.set_page_config(layout="wide")
 st.sidebar.title("🔎 Navigation")
 page = st.sidebar.radio("Go to", ["🏠 Home", "📄 Resumes"])
 
