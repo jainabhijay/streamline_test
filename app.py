@@ -5,6 +5,7 @@ from fpdf import FPDF
 import os
 import matplotlib.pyplot as plt
 import plotly.express as px
+st.set_page_config(layout="wide")
 
 # Load data
 @st.cache_data
